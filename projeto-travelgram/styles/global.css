@@ -15,8 +15,8 @@
 
   --font-famyly: "Poppins", sans-serif;
   --text-lg: bold 32px/125% var(--font-famyly);
-  --text-md: 14px/175% var(--font-famyly);
-  --text-sm: 12px/175% var(--font-famyly);
+  --text-md: 14px/170% var(--font-famyly);
+  --text-sm: 12px/170% var(--font-famyly);
   --text: 16px/1.5 var(--font-famyly);
 
 }
@@ -24,4 +24,24 @@
 body{
   color: var(--text-color-secondary);
   background-color: var(--background-color);  
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover{
+  color:  var(--brand-color);
+  text-decoration: underline;
+}
+
+.container{
+  padding-inline: 32px;
+  max-width: 1280px;
+  margin-inline: auto;
+}
+
+.bg-surface-color{
+  background-color: var(--surface-color);
 }
